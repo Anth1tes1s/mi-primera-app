@@ -1,0 +1,33 @@
+/* Contenedor principal */
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Estilos para el input y select */
+ion-item {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 15px;
+}
+
+ion-select, ion-input {
+  width: 100%;
+}
+
+/* Secciones divididas: inputs, selects y botón */
+.inputs {
+  margin-bottom: 40px; /* Espacio entre inputs y selects */
+}
+
+.selects {
+  margin-bottom: 40px; /* Espacio entre selects y el botón */
+}
+
+/* Botón centrado */
+ion-button {
+  width: 200px;
+}
